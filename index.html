@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bevásárló lista</title>
+    <link rel="stylesheet" href="ToDoList.css">
+    <link rel="icon" href="ikon.jpg">
+</head>
+<body>
+    <h1>Bevásárló Lista</h1>
+    <label >Következő termék: </label>
+    <input type="text" id="termék">
+    <button id="bevitel" onclick="Hozzáad()">Hozzáad</button>
+    <br>
+    <button id="tisztítás" onclick="Tisztítás()">Lista tisztítása</button>
+    <button id="utolsó-elem" onclick="UtolsóElemTörlés()">Utolsó elem törlése</button>
+    <ul id="lista">
+
+    </ul>
+</body>
+<script src="ToDoList.js"></script>
+</html>
